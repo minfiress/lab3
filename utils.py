@@ -1,5 +1,4 @@
-def factorial(n):
-    if n == 0:
-        return 1
-    else:
-        return n * factorial(n-1)
+def нсд(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
